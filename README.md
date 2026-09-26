@@ -1,24 +1,24 @@
 # A Multilingual Explainable AI Model For Autism Prediction
-# 🧠 Multilingual Explainable Model for Autism Prediction
+# Multilingual Explainable Model for Autism Prediction
 
 This project is a web-based system designed to support early screening of Autism Spectrum Disorder (ASD) in children. It integrates behavioral screening, facial image analysis, MRI scan interpretation, multilingual chatbot assistance, and explainable AI — all within a simple, interactive interface.
 
 ---
 
-## 🚀 Features
+##  Features
 
-- ✅ *Behavioral Questionnaire Prediction* (0–3 & 4–11 years)
-- 🖼 *Facial Image Prediction* using TensorFlow Lite CNN
-- 🧠 *MRI Image Prediction* using Keras CNN model
-- 💬 *Multilingual Chatbot* (English, Hindi, Kannada) for guidance
-- 🤖 *Explainable AI Integration* via Gemini API
-- 🌐 *Flask-based web interface* for real-time user interaction
-- 🎙 *Voice Input Support* using Speech Recognition API
-- 🌍 *Language Translation* using Google Translate API
+-  Behavioral Questionnaire Prediction (0–3 & 4–11 years)
+-  Facial Image Prediction using TensorFlow Lite CNN
+-  MRI Image Prediction using Keras CNN model
+-  Multilingual Chatbot (English, Hindi, Kannada) for guidance
+-  Explainable AI Integration via Gemini API
+-  Flask-based web interface for real-time user interaction
+-  Voice Input Support using Speech Recognition API
+-  Language Translation using Google Translate API
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 ├── app.py                      # Main Flask application
 ├── templates/
 │   ├── index.html              # Homepage
@@ -37,22 +37,22 @@ This project is a web-based system designed to support early screening of Autism
 └── requirements.txt            # Python dependencies
 ---
 
-## 🧪 How It Works
+##  How It Works
 
-1. *User selects a module* (form, image, MRI, or chatbot)
-2. *Input is submitted* (text or image)
-3. *Preprocessing*:
+1. User selects a module (form, image, MRI, or chatbot)
+2. Input is submitted (text or image)
+3. Preprocessing:
    - Behavioral inputs are encoded
    - Images are resized, normalized, and reshaped
-4. *Model is loaded*:
+4. Model is loaded:
    - .sav for forms, .tflite for face, .h5 for MRI
-5. *Prediction is made*
-6. *Explanation generated via Gemini*
-7. *Result + reason + chatbot support is displayed*
+5. Prediction is made
+6. Explanation generated via Gemini
+7. Result + reason + chatbot support is displayed
 
 ---
 
-## 🖥 Installation
+##  Installation
 
 ```bash
 git clone https://github.com/yourusername/autism-prediction.git
